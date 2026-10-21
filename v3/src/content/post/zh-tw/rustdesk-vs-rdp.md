@@ -45,7 +45,7 @@ RustDesk 可以在 **Windows（包含 Home 版）、macOS、Linux 與 Android** 
 
 這是兩種設計理念分歧最大的地方。Microsoft 自己對「從網路外部連到電腦」的建議，是「使用連接埠轉發或設定 VPN」（[Microsoft Learn](https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/remotepc/remote-desktop-allow-access)）。把原始的 RDP 用連接埠轉發直接暴露在網際網路上，正是您不該選的那條路。
 
-暴露在外的 RDP，是網路犯罪中最常被濫用的入侵管道之一。美國聯邦調查局（FBI）網路犯罪投訴中心多年前就警告：「網路攻擊者……越來越常利用遠端桌面通訊協定進行惡意活動」（[IC3 PSA](https://www.ic3.gov/PSA/2018/PSA180927)），而這個趨勢至今只增不減——RDP 遭入侵，仍是勒索軟體事件最常見的初始入侵途徑之一（[RH-ISAC](https://rhisac.org/ransomware/remote-desktop-protocol-use-in-ransomware-attacks/)）。公開暴露的 RDP 應視為面向網際網路的身分驗證服務，並承擔隨之而來的掃描與憑證攻擊風險。
+暴露在外的 RDP，是網路犯罪中最常被濫用的入侵管道之一。美國聯邦調查局（FBI）網路犯罪投訴中心多年前就警告：「網路攻擊者……越來越常利用遠端桌面通訊協定進行惡意活動」（[IC3 PSA](https://www.ic3.gov/PSA/2018/PSA180927)），而這個趨勢至今只增不減——RDP 遭入侵，仍是勒索軟體事件最常見的初始入侵途徑之一（[RH-ISAC](https://rhisac.org/ransomware/remote-desktop-protocol-use-in-ransomware-attacks/)）。公開暴露的 RDP 應視為對網際網路開放的身分驗證服務，並承擔隨之而來的掃描與憑證攻擊風險。
 
 比較安全的 RDP 對外開放方式，是透過妥善設定的 VPN，或搭配網路層級驗證（Network Level Authentication）的 RD Gateway，但這些都是您得自行維護的基礎架構。RustDesk 採用主動註冊、NAT 穿透與中繼備援，不需要在每個端點上直接暴露 RDP。即便如此，仍需使用最新版的使用者端、落實嚴格的存取控管，並留意公開的漏洞紀錄。
 

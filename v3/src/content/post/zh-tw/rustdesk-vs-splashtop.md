@@ -21,7 +21,7 @@ faq:
   - question: 'IT 團隊該如何測試 Splashtop 的替代方案？'
     answer: '以具代表性的使用者、端點、網路與支援流程進行雙軌試行。針對連線可靠性、遠端音訊、螢幕對應、行動裝置存取、管理功能與安全控管訂定驗收標準，並在替代方案通過這些標準之前，讓現有系統持續運作，同時備妥書面的回退方案。'
 metadata:
-  description: '想找自架的 Splashtop 替代方案？本文從授權、基礎架構、工作流程相容性、安全控管、試行設計與遷移風險等面向，說明 IT 團隊該如何評估。'
+  description: '想找自架的 Splashtop 替代方案？本文從授權、基礎架構、工作流程相容性、安全控管、試行設計與遷移風險等層面，說明 IT 團隊該如何評估。'
   keywords: '自架 Splashtop 替代方案, Splashtop 替代品, 從 Splashtop 遷移, RustDesk vs Splashtop, 適合 IT 團隊的 Splashtop 替代方案'
 ---
 
