@@ -10,7 +10,7 @@ keywords: ["rustdesk videos", "rustdesk tutorial", "rustdesk installation video"
 如果你正在評估 RustDesk 或準備做基礎自建部署，先看 OSS 安裝或使用者指南影片。若你需要持續關注 RustDesk Server Pro 教學與產品更新，請查看 RustDesk 的 YouTube 頻道。
 
 ## 開源版本
-[NetworkChuck: 你的遠程桌面太糟糕了！試試這個替代方案（免費 + 開源）
+[NetworkChuck: 你的遠端桌面太糟糕了！試試這個替代方案（免費 + 開源）
 ](https://www.youtube.com/watch?v=EXL8mMUXs88)
 
 [安裝和使用者指南](https://www.youtube.com/watch?v=9nzHm3xGz2I)

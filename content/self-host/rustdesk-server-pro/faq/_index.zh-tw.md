@@ -155,7 +155,7 @@ rustdesk/makepkg               latest    86a981e2e18f   2 months ago   2.23GB
 ## 如何提交錯誤報告？
 請通過 [GitHub](https://github.com/rustdesk/rustdesk-server-pro/issues) 提交。
 
-## 為什麼如果我自己托管，這不是免費和開源的？
+## 為什麼如果我自己託管，這不是免費和開源的？
 1. RustDesk 已成為許多人的全職工作，他們有生活、妻子、工作和孩子，這些都需要關注並花費金錢！
 2. 我們希望在未來幾年中繼續存在並取得巨大進展。
 3. 開源版本將繼續開源，我們鼓勵其他人根據 AGPL 許可證進行開發。
@@ -174,7 +174,7 @@ rustdesk/makepkg               latest    86a981e2e18f   2 months ago   2.23GB
 4. 點擊 `Submit`。
 5. 在 Android 上掃描 QR 碼，並將 exe 重命名為產生的名稱。
 
-## 您為 RustDesk Server Pro 提供托管服務嗎？
+## 您為 RustDesk Server Pro 提供託管服務嗎？
 請聯繫我們的[銷售](mailto://sales@rustdesk.com)團隊。
 
 ## 有地方可以看影片設定指南嗎？
